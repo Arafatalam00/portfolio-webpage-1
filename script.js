@@ -1,7 +1,7 @@
                                                         // FIRST EXAMPLE OF JS //
 
 
-unction scrollToElement(elementSelector, instance = 0){
+function scrollToElement(elementSelector, instance = 0){
     // select all elements that match the selector
     const elements = document.querySelectorAll(elementSelector);
     // Check if there are elements matching the selector and if the requested instance exists
